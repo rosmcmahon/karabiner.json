@@ -1143,6 +1143,126 @@
 									}
 								],
 								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "j",
+									"modifiers": {
+										"optional": [
+											"caps_lock",
+											"left_command",
+											"right_command",
+											"left_control",
+											"right_control",
+											"left_option",
+											"right_option",
+											"left_shift",
+											"right_shift",
+											"fn"
+										]
+									}
+								},
+								"to": [
+									{
+										"key_code": "right_shift"
+									}
+								],
+								"to_if_alone": [
+									{
+										"key_code": "j"
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "k",
+									"modifiers": {
+										"optional": [
+											"caps_lock",
+											"left_command",
+											"right_command",
+											"left_control",
+											"right_control",
+											"left_option",
+											"right_option",
+											"left_shift",
+											"right_shift",
+											"fn"
+										]
+									}
+								},
+								"to": [
+									{
+										"key_code": "right_command"
+									}
+								],
+								"to_if_alone": [
+									{
+										"key_code": "k"
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "l",
+									"modifiers": {
+										"optional": [
+											"caps_lock",
+											"left_command",
+											"right_command",
+											"left_control",
+											"right_control",
+											"left_option",
+											"right_option",
+											"left_shift",
+											"right_shift",
+											"fn"
+										]
+									}
+								},
+								"to": [
+									{
+										"key_code": "right_option"
+									}
+								],
+								"to_if_alone": [
+									{
+										"key_code": "l"
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "semicolon",
+									"modifiers": {
+										"optional": [
+											"caps_lock",
+											"left_command",
+											"right_command",
+											"left_control",
+											"right_control",
+											"left_option",
+											"right_option",
+											"left_shift",
+											"right_shift",
+											"fn"
+										]
+									}
+								},
+								"to": [
+									{
+										"key_code": "right_control"
+									}
+								],
+								"to_if_alone": [
+									{
+										"key_code": "semicolon"
+									}
+								],
+								"type": "basic"
 							}
 						]
 					}
